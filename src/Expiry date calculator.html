@@ -9,7 +9,7 @@
 <body><form action="file:///C:/Users/sagee/Desktop/New%20folder/v1.html?x=">
   <table border="border">
    <tbody><tr>
-    <th colspan="4">EXPIRY DATE CALCULATOR</th>
+    <th colspan="5">EXPIRY DATE CALCULATOR</th>
    </tr>
    <tr>
      <td>
@@ -19,9 +19,17 @@
        <option value="expiry_date">Use By dd/mm/yy </option>
       </select>
      </td>
-     <td><label>Enter date:<input type="date"></label></td>
      <td>
-      <label>x:<input type="text" name="x" size="3"></label>
+     <label>Enter date of expiry:
+     <input type="date" />
+     </label>
+     </td>
+     <td>
+     <label>Enter date of manufacture:
+     <input type="date"></label>
+     </td>
+     <td>
+      <label>x:<input type="number" name="x" min="1" max="45" value="1"></label>
      </td>
      <td>
       <label>Duration:<select>
@@ -33,7 +41,7 @@
      </td>
     </tr>
     <tr>
-    <td colspan="4"><input type="reset" value="Reset">     <input type="Submit" value="Calculate"></td>
+    <td colspan="5"><div><input type="reset" value="Reset">     <input type="Submit" value="Calculate"></div></td>
    </tr>
 
 
